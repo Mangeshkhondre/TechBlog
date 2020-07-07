@@ -1,0 +1,22 @@
+body{
+                background:url(Images/bg3.png);
+                background-size: cover;
+                background-attachment: fixed; 
+}
+
+.fornav{
+	color:black;
+}
+
+ul li{
+	padding-right:15px;
+	padding-left:15px;
+	font-size:20px;
+	border-left:1px solid red;
+}
+ul li:nth-last-child(1){
+	border-right:none;
+}
+ul li .active-page{
+	backgroud-color:red;
+}
